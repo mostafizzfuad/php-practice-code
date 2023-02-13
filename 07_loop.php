@@ -79,3 +79,15 @@ for($i=1; $i<=$n; $i++) {
     $fact *= $i;
 }
 echo $fact;
+
+
+
+echo PHP_EOL;
+echo PHP_EOL;
+
+
+//////// ****** print "1 to 100 divisible number by 9" using for loop ****** /////////
+for($i=0; $i<=100; $i+=9) {
+    echo $i;
+    echo PHP_EOL;
+}
